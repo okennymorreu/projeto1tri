@@ -1,3 +1,11 @@
+body{
+    font-size: 1re;
+    font-family: ;
+}
+
+header{
+    background-color: #F3F3E0;
+}
 button {
     color: white;
     background: rgb(0, 0, 0);
@@ -8,3 +16,4 @@ button {
   button:focus {
     background: 133E87;
   }
+
