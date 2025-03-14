@@ -9,6 +9,12 @@ header{
 section{
      padding-bottom: 5rem;
 }
+
+inicio-fundo{
+    background-size: cover;
+    background-position: right;
+
+}
 button {
     color: white;
     background: rgb(0, 0, 0);
