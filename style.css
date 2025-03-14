@@ -5,6 +5,10 @@ body{
 header{
     background-color: #F3F3E0;
 }
+
+section{
+     padding-bottom: 5rem;
+}
 button {
     color: white;
     background: rgb(0, 0, 0);
