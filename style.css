@@ -1,6 +1,6 @@
 button {
     color: white;
-    background: blue;
+    background: rgb(0, 0, 0);
     transition: background 1s;
   }
   
