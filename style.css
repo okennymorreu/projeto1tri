@@ -75,9 +75,4 @@
   .btn:hover {
     background-color: rgb(78, 128, 175);
   }
-  body{
-    background-image: url(https://www.google.com/search?sca_esv=3a618e889b997b30&rlz=1C1RXQR_enBR1148BR1148&q=bts+bichinhos&udm=2&fbs=ABzOT_BYhiZpMrUAF0c9tORwPGlsjfkTCQbVbkeDjnTQtijddBji9NlWFbRgtIhh9CBGrAXB5vpV75gZb_7hNW0d45uMnflur7kUy8QTs0A2FMIi0PXmb_t7YIcYMUokt8zqi8jd4wsOfpeUlPY0E6xxLBBI2rI7nlD-ktr-DggDWq7cd_HMFF9IACuaFHb2ddPIKvCm3D8I6TLu0EU1eTnSi4u93Gy1rg&sa=X&ved=2ahUKEwjbkMfvptqMAxUWLLkGHWi-G24QtKgLegQIEhAB&biw=1600&bih=765&dpr=1#vhid=38nalWtn8vGdyM&vssid=mosaic);
-    background-size: cover;
-    background-position: rigth bottom;
-    background-repeat: no-repeat;
-  }
+  
