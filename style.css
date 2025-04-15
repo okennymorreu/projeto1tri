@@ -29,7 +29,7 @@
   
   nav .logo {
     font-size: 30px;
-    color: whitesmoke;
+    color: rgb(226, 154, 220);
     font-weight: bold;
   }
   
@@ -50,7 +50,7 @@
   }
   
   nav ul li a:hover {
-    background-color: brown;
+    background-color: rgb(122, 178, 185);
   }
   
   .logo {
@@ -67,11 +67,11 @@
     margin-top: 20px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: brown;
+    background-color: rgb(161, 94, 131);
     border-radius: 20px;
     transition: 0.5s;
   }
   
   .btn:hover {
-    background-color: rgb(121, 21, 21);
+    background-color: rgb(78, 128, 175);
   }
