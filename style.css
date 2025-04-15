@@ -1,34 +1,76 @@
-body{
-    font-size: 1rem;
-}
 
-header{
-    background-color: var(--barra-navegacao);
-    color: var(--texto-preto);
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;500;800&display=swap');
 
-section{
-     padding-bottom: 5rem;
-}
 
-inicio-fundo{
-    background-size: cover;
-    background-position: right;
-
-}
-button {
-    color: white;
-    background: rgb(0, 0, 0);
-    transition: background 1s;
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
   }
   
-  button:hover,
-  button:focus {
-    background: 133E87;
+  body{
+    background-color: #F0FFFF;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: gap;
   }
-
+  
+  nav{
+    height: 50px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  a{
+   text-decoration: none;
+   color: white;
+  }
+  
+  a:hover{
+    border-bottom: 4px solid black;
+    transition: 0.3s all;
+    border-radius: 2px;
+    transform: scale(1.1);
+  }
+  
+  .btn{
+    background-color: cyan;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: deepskyblue;
+    color: cyan;
+    transition: 0.3s all;
+  }
+  
+  .main-site{
+    text-align: center;
+  }
+  
+  .image{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  @media (max-width: 410px) {
+    nav{
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      height: 10%;
+      font-size: 10pt;
+        }
+  
+        h1{
+          font-size: 15pt;
+        }
+  }
+  
